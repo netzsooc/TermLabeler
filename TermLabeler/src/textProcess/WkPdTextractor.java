@@ -18,7 +18,7 @@ public class WkPdTextractor {
 	 * @throws JDOMException 
 	 */
 	
-	private static String wikitext(String article, String lang) 
+	static String wikitext(String article, String lang) 
 			 throws JDOMException, IOException {
 		// TODO Auto-generated method stub
 		Element out = wt(article, lang);
