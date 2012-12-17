@@ -42,6 +42,7 @@ public class WkPdTextractor {
 	private static Element wt(String article, String lang) 
 			 throws JDOMException, IOException {
 		// TODO Auto-generated method stub
+		if (article == null) return null;
 		article = article.replaceAll(" ", "_");
 		
 		URL wp = null;
